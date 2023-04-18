@@ -192,6 +192,6 @@ function precompile_darcy_multimodels()
             simulate_mini_wellcase(Val(w), block_backend = block_backend, backend = backend)
         end
     end
-    simulate_mini_wellcase(Val(:immiscible_2ph), output_path = tempdir())
+    simulate_mini_wellcase(Val(:immiscible_2ph))
     return true
 end
